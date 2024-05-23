@@ -1,0 +1,48 @@
+.service__wrapper {
+    box-sizing: border-box;
+    border-bottom: 1px solid black;
+    padding: 0 40px;
+}
+
+.service {
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    gap: 16px;
+    background-color: white;
+    box-sizing: border-box;
+}
+
+.service__header {
+    padding-right: 40px;
+    box-sizing: border-box;
+}
+
+.service__btn-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 0 24px;
+}
+
+.service__btn {
+    appearance: none;
+    padding: 0;
+    border: 0;
+    font-size: inherit;
+    line-height: inherit;
+    font-weight: inherit;
+    text-decoration: none;
+    width: 100%;
+    box-sizing: border-box;
+    height: 52px;
+    border-radius: 4px;
+    background-color: #f7f5ee;
+    color: black;
+    cursor: pointer;
+    transition: background-color .3s ease-in-out;
+}
+
+.service__btn:hover {
+    background-color: #e3ded1;
+}

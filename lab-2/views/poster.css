@@ -1,0 +1,51 @@
+.poster__wrapper {
+    box-sizing: border-box;
+    border-bottom: 1px solid black;
+}
+
+.poster__cards {
+    background-color: white;
+    margin: 0 40px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 50px;
+    box-sizing: border-box;
+    padding: 16px;
+    justify-items: center;
+}
+
+.poster__cards-card {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+    width: 400px;
+    height: 400px;
+    color: black;
+    box-sizing: border-box;
+    background-color: white;
+    border-radius: 4px;
+    padding: 16px;
+    box-shadow: 0 0 10px 1px rgba(0, 24, 39, 0.08);
+    overflow: hidden;
+}
+
+.poster__card-title {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.poster__cards-card-img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+}
+
+.poster__text {
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+}
